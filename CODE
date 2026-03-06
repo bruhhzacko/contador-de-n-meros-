@@ -1,0 +1,38 @@
+Algoritmo ContarNumeros
+	
+    Definir n, i, numero Como Entero
+    Definir positivos, negativos, pares, impares Como Entero
+	
+    positivos <- 0
+    negativos <- 0
+    pares <- 0
+    impares <- 0
+	
+    Escribir "Ingrese la cantidad de numeros:"
+    Leer n
+	
+    Para i <- 1 Hasta n Hacer
+        Escribir "Ingrese un numero entero:"
+        Leer numero
+		
+        Si numero > 0 Entonces
+            positivos <- positivos + 1
+        Sino
+            Si numero < 0 Entonces
+                negativos <- negativos + 1
+            FinSi
+        FinSi
+		
+        Si numero MOD 2 = 0 Entonces
+            pares <- pares + 1
+        Sino
+            impares <- impares + 1
+        FinSi
+		
+    FinPara
+	
+    Escribir "Cantidad de numeros positivos: ", positivos
+    Escribir "Cantidad de numeros negativos: ", negativos
+    Escribir "Cantidad de numeros pares: ", pares
+    Escribir "Cantidad de numeros impares: ", impares
+FinAlgoritmo
