@@ -1,0 +1,8 @@
+Este sistema permite que el usuario ingrese una cantidad n de números enteros. Luego, el programa analiza cada número utilizando un bucle y contadores para clasificar los números.
+Durante el proceso, el sistema:
+Cuenta cuántos números son positivos.
+Cuenta cuántos números son negativos.
+Determina cuántos son pares.
+Determina cuántos son impares.
+
+Al finalizar la entrada de todos los números, el programa muestra en pantalla los resultados, indicando la cantidad de números en cada categoría.
